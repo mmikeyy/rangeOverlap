@@ -1,3 +1,3 @@
-import * as R from 'ramda';
+import * as moment from 'moment';
 
-console.log(3434);
+console.log(moment().format('d'));
