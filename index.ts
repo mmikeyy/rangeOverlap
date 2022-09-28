@@ -1,3 +1,3 @@
-import * as moment from 'moment';
+const moment = require('moment');
 
 console.log(moment().format('d'));
