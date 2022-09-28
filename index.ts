@@ -1,3 +1,3 @@
 const moment = require('moment');
 
-console.log(moment().format('d') + 10);
+console.log(moment('2022-10-10 10:30').diff('2022-10-10 10:00', 'hours'));
