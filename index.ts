@@ -1,3 +1,3 @@
 const moment = require('moment');
 
-console.log(moment().format('d'));
+console.log(moment().format('d') + 10);
